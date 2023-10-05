@@ -29,13 +29,12 @@ body{
 
 
 a,a:hover,a:active,a:focus {
-
+    color: #f9f9f9;
 	display:inline-block;
 	text-decoration:none;
 	font-size:13px;
 	padding:0;
     margin:0;
-
 }
 
 h1,h2,h3,h4,h5,h6 { 
@@ -336,9 +335,9 @@ html,body{
 .about-us h2 {
     text-shadow: 3px 5px 7px #000000d4;
 	color:#fff;	
-	font-size:84px;
+	font-size:50px;
 	text-transform: inherit;
-	max-width: 800px;
+	max-width: 1000px;
 	font-weight: 600;
 	line-height: 1.22;
 }
@@ -663,7 +662,7 @@ html,body{
 --------------------------------------*/
 .service {
     position: relative;
-    padding: 80px 0 54px;
+    padding: 80px 0 0;
 }
 /* single-ststistics-box */
 .single-service-box {
@@ -700,7 +699,7 @@ html,body{
     background: #f9f9f9;
 }
 .gallery-details{
-    margin-top:117px;
+    margin-top:35px;
     margin-bottom:109px;
 }
 .gallery-content {
@@ -710,17 +709,18 @@ html,body{
 /* gallary-header  */
 .gallary-header h2{
     position:relative;
-    color:#565a5c;  
-    font-size:30px;
-    font-weight:500;
+    color: #092e41;
+    font-size: 40px;
+    font-weight: 600;
     text-transform:capitalize;
     font-family: 'Poppins', sans-serif;
-    padding-bottom:14px;
+   
 }
 .gallary-header p{
-    position:relative;
-    color:#aaa;  
-    font-size:16px;
+    font-weight: 500;
+    position: relative;
+    color: #4b4b4bf7;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
     margin-top: 17px;
 }
@@ -880,7 +880,7 @@ html,body{
         8. Packages 
 --------------------------------------*/
 .packages{
-    padding:120px 0 90px;
+    padding:50px 0 20px;
 }
 .packages-content{
     margin-top:65px;
@@ -985,7 +985,7 @@ html,body{
 .testemonial{
     position:relative;
     background: #f9f9f9;
-    padding:120px 0;
+    padding:60px 0;
 }
 
 /*testemonial-carousel*/
